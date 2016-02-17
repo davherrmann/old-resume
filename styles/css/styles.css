@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333; }
+  color: #333;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h1,
 h2,
@@ -28,12 +28,12 @@ section {
   padding: 80px 0; }
 
 section:nth-child(odd) {
-  background-color: #eee; }
+  background-color: #f7f7f7; }
 
 section h2.section-heading {
   font-size: 40px;
-  margin-top: 0;
-  padding-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-top: 0; }
 
 section h3.section-subheading {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -63,9 +63,20 @@ section h3.section-subheading {
 
 .timeline {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+  position: relative; }
   .timeline li {
-    clear: both; }
+    margin-bottom: 50px;
+    min-height: 100px; }
+  .timeline li:last-child {
+    margin-bottom: 0; }
+  .timeline li::before {
+    content: '';
+    display: table; }
+  .timeline li::after {
+    clear: both;
+    content: '';
+    display: table; }
   .timeline h4 {
     text-transform: initial; }
   .timeline li:nth-child(even) .timeline-panel {

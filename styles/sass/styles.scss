@@ -4,8 +4,8 @@ $primary-color: #4b0082;
 $secondary-color: #fff;
 
 body {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $text-color;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -40,13 +40,13 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: #eee;
+  background-color: #f7f7f7;
 }
 
 section h2.section-heading {
   font-size: 40px;
+  margin-bottom: 15px;
   margin-top: 0;
-  padding-bottom: 15px;
 }
 
 section h3.section-subheading {
@@ -81,15 +81,30 @@ section h3.section-subheading {
   }
 }
 
-
-
 // timeline
 .timeline {
   list-style: none;
   padding: 0;
+  position: relative;
 
   li {
+    margin-bottom: 50px;
+    min-height: 100px;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  li::before {
+    content: '';
+    display: table;
+  }
+
+  li::after {
     clear: both;
+    content: '';
+    display: table;
   }
 
   h4 {
