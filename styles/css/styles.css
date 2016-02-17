@@ -32,6 +32,18 @@ section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: initial; }
 
+.video-wrapper {
+  height: 0;
+  padding-bottom: 56%;
+  padding-top: 0;
+  position: relative; }
+  .video-wrapper iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
 .timeline {
   list-style: none;
   padding: 0; }
