@@ -1,4 +1,67 @@
+body {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 .pageheader {
   background-color: #4b0082;
   color: #fff;
   padding: 3em 0; }
+
+.timeline {
+  list-style: none;
+  padding: 3em 0; }
+  .timeline li {
+    clear: both; }
+  .timeline h4 {
+    text-transform: initial; }
+  .timeline li:nth-child(even) .timeline-panel {
+    float: right;
+    text-align: left; }
+  .timeline::before {
+    background-color: #4b0082;
+    bottom: 0;
+    content: '';
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 2px; }
+
+.timeline-image {
+  background-color: #fff;
+  border: 3px solid #4b0082;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  width: 100px; }
+
+.timeline-image {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%); }
+
+.timeline-image-label {
+  color: #4b0082;
+  display: flex;
+  font-size: 2em;
+  justify-content: center;
+  margin: 0; }
+
+.timeline-panel {
+  float: left;
+  text-align: right;
+  width: 41%; }
+
+.timeline-heading {
+  font-weight: 700; }

@@ -1,8 +1,89 @@
 $text-color: #fff;
 $primary-color: #4b0082;
+$secondary-color: #fff;
+
+body {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 .pageheader {
   background-color: $primary-color;
   color: $text-color;
   padding: 3em 0;
+}
+
+// timeline
+.timeline {
+  list-style: none;
+  padding: 3em 0;
+
+  li {
+    clear: both;
+  }
+
+  h4 {
+    text-transform: initial;
+  }
+
+  li:nth-child(even) .timeline-panel {
+    float: right;
+    text-align: left;
+  }
+
+  &::before {
+    background-color: $primary-color;
+    bottom: 0;
+    content: '';
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 2px;
+  }
+}
+
+.timeline-image {
+  background-color: $secondary-color;
+  border: 3px solid $primary-color;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  width: 100px;
+}
+
+.timeline-image {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.timeline-image-label {
+  color: $primary-color;
+  display: flex;
+  font-size: 2em;
+  justify-content: center;
+  margin: 0;
+}
+
+.timeline-panel {
+  float: left;
+  text-align: right;
+  width: 41%;
+}
+
+.timeline-heading {
+  font-weight: 700;
 }
