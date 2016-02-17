@@ -75,7 +75,7 @@ section h3.section-subheading {
 }
 
 .timeline-image {
-  background-color: $secondary-color;
+  background-color: $primary-color;
   border: 3px solid $primary-color;
   border-radius: 50%;
   display: flex;
@@ -92,9 +92,9 @@ section h3.section-subheading {
 }
 
 .timeline-image-label {
-  color: $primary-color;
+  color: $secondary-color;
   display: flex;
-  font-size: 2em;
+  font-size: 72px;
   justify-content: center;
   margin: 0;
 }

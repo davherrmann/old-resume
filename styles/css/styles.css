@@ -53,7 +53,7 @@ section h3.section-subheading {
     width: 2px; }
 
 .timeline-image {
-  background-color: #fff;
+  background-color: #4b0082;
   border: 3px solid #4b0082;
   border-radius: 50%;
   display: flex;
@@ -68,9 +68,9 @@ section h3.section-subheading {
   transform: translateX(-50%); }
 
 .timeline-image-label {
-  color: #4b0082;
+  color: #fff;
   display: flex;
-  font-size: 2em;
+  font-size: 72px;
   justify-content: center;
   margin: 0; }
 
