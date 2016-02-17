@@ -24,6 +24,17 @@ p {
   color: #fff;
   padding: 3em 0; }
 
+section {
+  padding: 80px 0; }
+
+section:nth-child(odd) {
+  background-color: #eee; }
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  padding-bottom: 15px; }
+
 section h3.section-subheading {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -31,6 +42,12 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
   text-transform: initial; }
+
+.video-wrapper-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  position: relative; }
 
 .video-wrapper {
   height: 0;
