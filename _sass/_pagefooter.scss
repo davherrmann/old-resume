@@ -9,6 +9,7 @@
     display: inline-block;
     line-height: 24px;
     margin-right: 25px;
+    text-transform: initial;
     vertical-align: middle;
   }
 
@@ -22,9 +23,7 @@
 }
 
 ul.social-buttons li a {
-  background-color: $text-color-inverted;
-  border-radius: 100%;
-  color: $primary-color;
+  color: $text-color-inverted;
   display: block;
   font-size: 24px;
   height: 40px;
@@ -34,8 +33,7 @@ ul.social-buttons li a {
   width: 40px;
 
   &:hover {
-    background-color: $primary-color;
-    color: $text-color-inverted;
+    border-bottom: 2px solid $text-color-inverted;
   }
 }
 
