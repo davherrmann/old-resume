@@ -70,6 +70,11 @@ section h3.section-subheading {
     min-height: 100px; }
   .timeline li:last-child {
     margin-bottom: 0; }
+    .timeline li:last-child .timeline-image {
+      height: 150px;
+      width: 150px; }
+    .timeline li:last-child .timeline-image-label {
+      font-size: 96px; }
   .timeline li::before {
     content: '';
     display: table; }
