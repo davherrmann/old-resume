@@ -4,4 +4,50 @@
   background-color: $primary-color;
   color: $text-color-inverted;
   padding: 3em 0;
+
+  h4 {
+    display: inline-block;
+    line-height: 24px;
+    margin-right: 25px;
+    vertical-align: middle;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  li:first-child {
+    padding-left: 0;
+  }
+}
+
+ul.social-buttons li a {
+  background-color: $text-color-inverted;
+  border-radius: 100%;
+  color: $primary-color;
+  display: block;
+  font-size: 24px;
+  height: 40px;
+  line-height: 40px;
+  outline: none;
+  text-align: center;
+  width: 40px;
+
+  &:hover {
+    background-color: $primary-color;
+    color: $text-color-inverted;
+  }
+}
+
+@media (min-width: 768px) {
+  .pagefooter h4 {
+    line-height: 40px;
+  }
+
+  ul.social-buttons li a {
+    font-size: 40px;
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+  }
 }
