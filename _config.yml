@@ -1,2 +1,5 @@
 encoding: utf-8
 exclude: [ _site, .git, gulpfile.js, node_modules, README.md, package.json]
+
+collections:
+- about_items

@@ -12,41 +12,27 @@
       <div class="col-lg-12">
         <!-- timeline -->
         <ul class="timeline">
+          {% for about_item in site.about_items %}
+            <li>
+              <div class="timeline-image">
+                <span class="timeline-image-label devicons devicons-{{about_item.icon}}">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>{{about_item.title}}</h4>
+                  <h4 class="subheading">{{about_item.subtitle}}</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    {{about_item.content}}
+                  </p>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
           <li>
             <div class="timeline-image">
-              <span class="timeline-image-label devicons devicons-visualstudio">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>2006-2008</h4>
-                <h4 class="subheading">My Beginnings</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                  In 2006 I started programming in VB6. In 2006 I started programming in VB6.In 2006 I started programming in VB6.In 2006 I started programming in VB6.In 2006 I started programming in VB6. In 2006 I started programming in VB6.In 2006 I started programming in VB6.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <span class="timeline-image-label devicons devicons-html5">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>2006-2008</h4>
-                <h4 class="subheading">My Beginnings</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                  In 2006 I started programming in VB6.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <span class="timeline-image-label devicons devicons-html5">
+              <span class="timeline-image-label devicons devicons-git_pull_request">
             </div>
           </li>
         </ul>
