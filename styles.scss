@@ -1,12 +1,12 @@
 ---
 ---
 
-@import "colors";
+@import 'colors';
 
-@import "pageheader";
-@import "section";
-@import "timeline";
-@import "videowrapper";
+@import 'pageheader';
+@import 'section';
+@import 'timeline';
+@import 'videowrapper';
 
 body {
   color: $text-color;
