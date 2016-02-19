@@ -18,12 +18,11 @@
                 <span class="timeline-image-label {{about_item.icon}}">
               </div>
               <div class="timeline-badges">
-                <div class="timeline-badge">
-                  <span class="devicons devicons-angular"></span>
-                </div>
-                <div class="timeline-badge">
-                  <span class="fa fa-child"></span>
-                </div>
+                {% for badge in about_item.badges %}
+                    <div class="timeline-badge">
+                      <span class="{{badge}}"></span>
+                    </div>
+                {% endfor %}
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
