@@ -53,6 +53,14 @@
         float: right;
         text-align: left;
       }
+
+      .timeline-badge:nth-child(1) {
+        left: 35px;
+      }
+
+      .timeline-badge:nth-child(2) {
+        left: 85px;
+      }
     }
 
     &::before {
@@ -122,6 +130,7 @@
 .timeline-badges {
   display: none;
   float: left;
+  margin-top: 50px;
   padding-right: 40px;
   position: relative;
   text-align: right;
@@ -144,7 +153,8 @@
 
 .timeline-badge:nth-child(1) {
   height: 60px;
-  right: 30px;
+  right: 35px;
+  top: -30px;
   width: 60px;
 
   span {
@@ -155,8 +165,8 @@
 
 .timeline-badge:nth-child(2) {
   height: 40px;
-  right: 80px;
-  top: 20px;
+  right: 85px;
+  top: -20px;
   width: 40px;
 
   span {
