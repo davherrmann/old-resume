@@ -3,12 +3,15 @@ title: 2002-2006
 subtitle: It all began with a book
 
 icon: devicons devicons-visualstudio
+badges: [devicons devicons-netmagazine, fa fa-undo]
 ---
 
 ...standing in my father's bookshelf. Not any book, but 1260 pages [full of Visual Basic 6][vb6kompendium]. For unknown reasons it attracted me — it certainly wasn't the cover.
-I did not learn to love the language, but studying the book thoroughly taught me unvaluable lessons: [don't give up][equals], [don't give up][syntaxerror], [don't give up][trigonometry].
+I did not learn to love the language, but studying the book thoroughly taught me invaluable lessons: [don't give up][equals], [don't give up][syntaxerror], [don't give up][trigonometry].
 
 <!-- TODO write about programs you created -->
+<!-- TODO write about .net -->
+<!-- TODO write about self-teaching, undoing, discipline -->
 
 [vb6kompendium]: https://www.google.com/search?q=Visual+Basic+6+Kompendium&tbm=isch
 [equals]: https://www.google.com/#q=why+on+earth+does+visual+basic+use+the+same+sign+for+checking+equality+and+assigning+values
