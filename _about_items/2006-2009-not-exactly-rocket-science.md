@@ -3,6 +3,7 @@ title: 2006-2009
 subtitle: Not exactly rocket science
 
 icon: fa fa-space-shuttle
+badges: [fa fa-cogs]
 ---
 
 <!-- TODO capitalise titles -->

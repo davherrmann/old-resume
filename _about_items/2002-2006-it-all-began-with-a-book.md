@@ -3,7 +3,7 @@ title: 2002-2006
 subtitle: It all began with a book
 
 icon: devicons devicons-visualstudio
-badges: [devicons devicons-netmagazine, fa fa-undo]
+badges: [devicons devicons-netmagazine]
 ---
 
 ...standing in my father's bookshelf. Not any book, but 1260 pages [full of Visual Basic 6][vb6kompendium]. For unknown reasons it attracted me — it certainly wasn't the cover.
