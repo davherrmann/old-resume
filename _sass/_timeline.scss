@@ -8,11 +8,22 @@
   li {
     margin-bottom: 50px;
     min-height: 100px;
+    position: relative;
+  }
+
+  li:empty {
+    display: none;
   }
 
   li::before {
+    background-color: $primary-color;
+    bottom: -50px;
     content: '';
-    display: table;
+    left: 50px;
+    position: absolute;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 2px;
   }
 
   li::after {
@@ -23,17 +34,6 @@
 
   h4 {
     text-transform: initial;
-  }
-
-  &::before {
-    background-color: $primary-color;
-    bottom: 0;
-    content: '';
-    left: 50px;
-    position: absolute;
-    top: 0;
-    transform: translateX(-50%);
-    width: 2px;
   }
 
   @media (min-width: 768px) {
@@ -63,7 +63,7 @@
       }
     }
 
-    &::before {
+    li::before {
       left: 50%;
     }
 
