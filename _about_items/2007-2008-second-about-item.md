@@ -1,9 +1,9 @@
 ---
-title: 2007-2008
-subtitle: split seconds
+title: 2009-2014
+subtitle: Becoming fond of the Web
 
 icon: devicons devicons-html5
 badges: [devicons devicons-javascript, devicons devicons-css3_full]
 ---
 
-This is some text.
+The web had always fascinated me.
