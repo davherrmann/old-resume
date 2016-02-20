@@ -12,6 +12,10 @@ function createDynamicContentSourceURL() {
 };
 
 function loadDynamicContent() {
+  if (window.location.hash.length <= 1) {
+    return;
+  }
+
   let httpRequest = new XMLHttpRequest();
   httpRequest.onreadystatechange = createOnDynamicContentLoaded(httpRequest);
   httpRequest.open('GET', createDynamicContentSourceURL(), true);
