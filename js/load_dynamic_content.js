@@ -8,7 +8,7 @@ function createIdFromLocationHash() {
 };
 
 function createDynamicContentSourceURL() {
-  return 'http://rawgit.com/davherrmann/' + createIdFromLocationHash() + '/raw/davherrmann.github.io.json';
+  return 'http://cdn.rawgit.com/davherrmann/' + createIdFromLocationHash() + '/raw/davherrmann.github.io.json';
 };
 
 function loadDynamicContent() {
