@@ -26,6 +26,10 @@
     width: 2px;
   }
 
+  li:last-child::before {
+    content: none;
+  }
+
   li::after {
     clear: both;
     content: '';

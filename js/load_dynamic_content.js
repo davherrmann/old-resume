@@ -41,5 +41,7 @@ function injectDynamicContent(jsonString) {
 }
 
 function injectInnerHTML(id, innerHTML) {
-  document.getElementById(id).innerHTML = innerHTML;
+  let parentElement = document.createElement("div");
+  parentElement.innerHTML = innerHTML;
+  document.getElementById(id).appendChild(parentElement.firstChild);
 }
