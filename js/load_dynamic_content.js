@@ -34,7 +34,6 @@ function injectDynamicContent(jsonString) {
   let dynamicContent = JSON.parse(jsonString);
   for (let key in dynamicContent) {
     if (dynamicContent.hasOwnProperty(key)) {
-      console.log(key + " -> " + dynamicContent[key]);
       injectInnerHTML(key, dynamicContent[key]);
     }
   }
