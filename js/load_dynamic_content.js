@@ -1,3 +1,5 @@
+"use strict";
+
 const ENCRYPTED_ID = "U2FsdGVkX1/+MtKL/1VW+4j+zYPX8DOHDj5I7ya+vfeoHbQ93F7uMK9l+wT/43M7";
 
 window.onload = loadDynamicContent;
