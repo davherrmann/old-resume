@@ -10,6 +10,6 @@ I am pretty certain that there are some JavaScript frameworks which were abandon
 
 Though it can be challenging not to be overwhelmed by [the wave of new javascript frameworks][jsframeworks], I am excited to see new concepts and best practices come up. It's a sign of progress.
 
-Even if you are not up to date with the latest frameworks you can adopt the spirit. Challenge yourself! Don't take things for granted. Ask yourself: Can we do things better?
+It really helped me to use the latest technologies in several projects. But even if don't have the time to stay up to date with the latest frameworks you can do one thing: You can adopt the spirit. Challenge yourself! Don't take things for granted. Ask yourself: Can we do things better?
 
 [jsframeworks]: http://www.google.com/trends/explore?q=ember+js,+angular+js,+backbone+js,+react+js,+meteor+js,+aurelia+js
